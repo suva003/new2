@@ -1,0 +1,63 @@
+<!--Header Start-->
+<header class="site-header position-relative" id="site_header">
+  <div class="site-header-top-outer d-none d-md-block">
+      <div class="container">
+          <div class="site-header-top d-flex align-items-center justify-content-between">
+              <div class="site-header-top-left">
+                  <span>Need Help?</span><a href="mailto:" class="ml-1 font-weight-bold">contact@example.com</a>
+              </div>
+              <div class="site-header-top-right">
+                  <nav class="site-header-top-nav">
+                      <a routerLink="/myprofileinfo" class="text-capitalize">Your Account</a>
+                      <a href="http://" class="text-capitalize">Today's Deals</a>
+                      <a routerLink="/" class="text-capitalize">Distributor's Login</a>
+                      <a href="#loginModal" data-target="#loginModal" data-toggle="modal"
+                                class="text-capitalize">Login / Register</a>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="site-header-body-outer">
+      <div class="container">
+          <div class="site-header-body d-flex align-items-center justify-content-between">
+              <div class="site-header-body-left d-none d-md-flex d-flex align-items-center">
+                  <a href="index.html" class="site-header-logo">
+                      <img src="assets/images/logo/logo.svg" alt="" class="desktop-logo d-none d-md-block">
+                      <img src="assets/images/logo/icon.svg" alt="" class="mobile-logo d-block d-md-none">
+                  </a>
+                  <nav class="site-header-nav d-none d-md-block">
+                        <a  routerLinkActive="active" routerLink="/product" class="site-header-nav-link">Men</a>
+                        <a  routerLinkActive="active" routerLink="/listing" class="site-header-nav-link">Women</a>
+                        <a href="javascript:void(0);" class="site-header-nav-link">What's New</a>
+                        <a href="javascript:void(0);" class="site-header-nav-link">Collection</a>
+                     
+                  </nav>
+              </div>
+              <div class="site-header-body-right d-flex align-items-center text-right">
+                  <form class="site-header-searchbar align-items-center justify-content-between" action="">
+                      <input type="text" placeholder="Search">
+                      <button type="submit" class="d-flex align-items-center justify-content-center"><img
+                              src="assets/images/icons/search.png" alt="" class=""></button>
+                  </form>
+                  <a routerLink="/myprofileinfo/profile" class="site-account-trigger d-none d-md-block position-relative">
+                      <img src="assets/images/icons/user.png" alt="" width="20">
+                  </a>
+                  <a routerLink="/myprofileinfo/mywishlist" class="site-wishlist-trigger d-none d-md-block position-relative">
+                      <img src="assets/images/icons/wishlist.png" alt="" width="20">
+                      <span class="count">0</span>
+                  </a>
+                  <a routerLink="/myprofileinfo/mycart"  class="site-cart-trigger d-none d-md-block position-relative">
+                      <img src="assets/images/icons/cart.png" alt="" width="20">
+                      <span class="count">0</span>
+                  </a>
+              </div>
+              <a href="javascript:void(0);" class="mobile-nav-hamberger d-block d-md-none position-absolute"><img src="assets/images/icons/menu.png" alt="" width="28"></a>
+              <a href="javascript:void(0);" class="mobile-nav-search d-block d-md-none position-absolute"><img src="assets/images/icons/search.png" alt="" width="20"></a>
+          </div>
+      </div>
+  </div>
+  
+</header>
+<router-outlet></router-outlet>
+<!--Header End-->

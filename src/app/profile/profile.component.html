@@ -1,0 +1,94 @@
+ <!-- My Profile Container -->
+ <div class="container">
+        <div class="row">
+            <div class="col-md-4 d-none d-md-block">
+                <!-- My Account Nav -->
+                <nav class="myaccount-nav">
+                    <a href="myprofile.html" class="d-block selected">
+                        <h3 class="myaccount-nav-title">My Profile</h3>
+                        <span class="myaccount-nav-sub">Your Name and other details</span>
+                    </a>
+                    <a href="mycart.html" class="d-block">
+                            <h3 class="myaccount-nav-title">My Cart</h3>
+                            <span class="myaccount-nav-sub">Check Shipping Status, Re-Order Items</span>
+                        </a>
+                    <a href="myorders.html" class="d-block">
+                        <h3 class="myaccount-nav-title">View My Orders</h3>
+                        <span class="myaccount-nav-sub">Check Shipping Status, Re-Order Items</span>
+                    </a>
+                    <a href="mywishlist.html" class="d-block">
+                        <h3 class="myaccount-nav-title">My Wishlist</h3>
+                        <span class="myaccount-nav-sub">Add Item To Cart, Remove Items, Add Notes</span>
+                    </a>
+                    <a href="myaddress.html" class="d-block">
+                        <h3 class="myaccount-nav-title">My Addresses</h3>
+                        <span class="myaccount-nav-sub">Add, Edit, Remove Addresses</span>
+                    </a>
+                    <a href="javascript:void(0);" class="d-block">
+                        <h3 class="myaccount-nav-title">Coupons</h3>
+                        <span class="myaccount-nav-sub">Manage coupons for additional discounts</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="col-md-8">
+                <div class="myaccount-container">
+                    <!-- My Profile Info -->
+                    <div class="myprofile-info-wrapper">
+                        <div class="myaccount-title-wrapper d-flex align-items-center justify-content-between">
+                            <h2 class="myaccount-title">Profile Information</h2>
+                            <a href="javascript:void(0);" class="myaccount-title-action">Edit Info</a>
+                        </div>
+                        <div class="myprofile-info-content">
+                            <form action="">
+                                <div class="form-group custom-form-group row">
+                                    <label for="" class="col-sm-4 col-form-label">First Name</label>
+                                    <div class="col-12 col-md-8">
+                                        <input type="text" readonly class="form-control-plaintext" id="" value="Sayantan">
+                                    </div>
+                                </div>
+                                <div class="form-group custom-form-group row">
+                                    <label for="" class="col-sm-4 col-form-label">Last Name</label>
+                                    <div class="col-12 col-md-8">
+                                        <input type="text" readonly class="form-control-plaintext" id="" value="Chandra">
+                                    </div>
+                                </div>
+                                <div class="form-group custom-form-group row">
+                                    <label for="" class="col-sm-4 col-form-label">Password</label>
+                                    <div class="col-12 col-md-8">
+                                        <input type="password" readonly class="form-control-plaintext" id="" value="1234567890">
+                                    </div>
+                                </div>
+                                <div class="form-group custom-form-group row">
+                                    <label for="" class="col-sm-4 col-form-label">Gender</label>
+                                    <div class="col-12 col-md-8">
+                                        <input type="text" readonly class="form-control-plaintext" id="" value="Male">
+                                    </div>
+                                </div>
+                                <div class="form-group custom-form-group row">
+                                    <label for="" class="col-sm-4 col-form-label">Date of Birth</label>
+                                    <div class="col-12 col-md-8">
+                                        <input type="text" readonly class="form-control-plaintext" id="" value="14-12-1994">
+                                    </div>
+                                </div>
+                                <div class="form-group custom-form-group row">
+                                    <label for="" class="col-sm-4 col-form-label">Email</label>
+                                    <div class="col-12 col-md-8">
+                                        <input type="email" readonly class="form-control-plaintext" id="" value="jason.magehan73@gmail.com">
+                                    </div>
+                                </div>
+                                <div class="form-group custom-form-group row">
+                                    <label for="" class="col-sm-4 col-form-label">Mobile Number</label>
+                                    <div class="col-12 col-md-8">
+                                        <input type="text" readonly class="form-control-plaintext" id="" value="9748652834">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <router-outlet></router-outlet>
+                
+            </div>
+        </div>
+    </div>
+            
